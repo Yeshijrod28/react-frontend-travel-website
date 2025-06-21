@@ -1,0 +1,29 @@
+.slider {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0.625rem;
+  scroll-snap-type: x mandatory;
+  width:40rem;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 20rem;
+  scroll-snap-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  color: white;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 0.8rem;
+  height:13rem;
+}

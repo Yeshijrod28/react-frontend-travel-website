@@ -1,0 +1,52 @@
+.payment-modal {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.6rem;
+  width: 22rem;
+  position: relative;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  z-index: 1000;
+  color: #780000;
+}
+
+.payment-modal h2 {
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.payment-form input {
+  padding: 0.625rem;
+  border: 0.1rem solid #780000;
+  border-radius: 0.32rem;
+}
+
+.payment-form button {
+  background: #780000;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+.payment-form button:hover {
+  background: #fff;
+  color: #780000;
+  border: .1rem solid #780000;
+}
+
+.close-btn {
+  position: absolute;
+  right: 0.625rem;
+  top: 0.625rem;
+  background: transparent;
+  font-size: 1.25rem;
+  border: none;
+  cursor: pointer;
+}
