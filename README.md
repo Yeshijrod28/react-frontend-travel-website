@@ -1,7 +1,5 @@
-
 ---
-
-## **2️⃣ Tashel – Bhutan Travel Website (Frontend + SRS Practice)**  
+## Tashel – Travel Website
 
 ```markdown
 # Tashel 🌏
